@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 44450",
+    "start": "ng serve --port 44456",
     "build": "ng build",
     "build:ssr": "ng run WebShop:server:dev",
     "watch": "ng build --watch --configuration development",
@@ -20,8 +20,11 @@
     "@angular/platform-browser-dynamic": "~12.2.2",
     "@angular/platform-server": "~12.2.2",
     "@angular/router": "~12.2.2",
-    "bootstrap": "^5.1.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
+    "ng2-charts": "^3.0.11",
     "oidc-client": "^1.11.5",
     "popper.js": "^1.16.0",
     "run-script-os": "^1.1.6",
@@ -43,6 +46,5 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
-  },
-  "optionalDependencies": {}
+  }
 }
